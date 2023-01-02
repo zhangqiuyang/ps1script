@@ -1,6 +1,6 @@
- $TenantName = "qiuyangtestoutlook.onmicrosoft.com"
- $AppId = "f3df59fd-6a79-4e28-acaf-e9baeaddb1ba"
- $Certificate = Get-Item Cert:\LocalMachine\My\6191DB6C808C9B601A0F3444BB53F1657D9B380C
+ $TenantName = ""
+ $AppId = ""
+ $Certificate = Get-Item Cert:\LocalMachine\My\
 
  $Scope = "https://graph.microsoft.com/.default" # Example: "https://graph.microsoft.com/.default"
     
